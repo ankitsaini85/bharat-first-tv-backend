@@ -1,1 +1,5 @@
-# bharat-first-tv-backend
+# SurakshaSanghNewsTv_Backend
+
+## Search engine configuration
+
+The production canonical site URL defaults to `https://bharatfirsttvnews.com`. Set backend `SEO_SITE_URL` and frontend `VITE_SITE_URL` only when deploying to a different canonical domain; both values should use the same origin. These settings are used for canonical metadata, structured data, robots.txt, and sitemap.xml. Keep `CLIENT_URL` for the frontend origin allowed by the backend CORS policy, and keep `VITE_API_URL` pointed at the backend API origin when it is hosted separately. The server exposes `/robots.txt` and a generated `/sitemap.xml` containing public pages, published categories, and approved articles. Set `FRONTEND_PATH` to the deployed site's `public_html` directory so the SPA is served from the correct virtual host.
