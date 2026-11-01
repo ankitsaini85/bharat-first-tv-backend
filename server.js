@@ -81,7 +81,7 @@ app.use("/api/contact", contactRoutes);
 
 const FRONTEND_PATH =
   process.env.FRONTEND_PATH ||
-  "/home/u434690560/domains/bharatfirsttvnews.com/public_html";
+  "/home/u113860049/domains/surakshasanghnewstv.com/public_html";
 
 // Serve React static files
 app.use(express.static(FRONTEND_PATH));
